@@ -109,8 +109,8 @@ export default function Profile() {
         <table className="mb-6 w-full">
           <tbody>
             <tr>
-              <td className="font-medium w-24">Тип скина:</td>
-              <td className="flex items-center">
+              <td className="font-medium w-24 max-md:inline-block max-md:mr-4">Тип скина:</td>
+              <td className="flex max-md:justify-center items-center max-md:mr-8">
                 <span className="text-sm font-medium text-neutral-300 mr-2">
                   Default
                 </span>
